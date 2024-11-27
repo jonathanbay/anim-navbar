@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vh;
+    background: url(./img/dragon.jpg) no-repeat center/cover;
+}
+
+#open-menu {
+    display: none;
+}
+
+#logo {
+    color: white;
+    font-size: 2.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    backdrop-filter: blur(50%);
+    background: rgba(0, 0, 0, 0.418);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
